@@ -4883,14 +4883,14 @@ body {
   background-color: #8e8e8e; }
 
 .navbar {
-  background-color: #303030;
+  background-color: #545454;
   -webkit-box-shadow: 30px;
   box-shadow: 30px; }
   .navbar a {
     color: white; }
 
 .nav-item {
-  background-color: #303030;
+  background-color: #545454;
   border: none;
   color: white;
   padding: 0px 10px;
@@ -4904,4 +4904,4 @@ body {
   float: left; }
 
 .nav-item:hover {
-  background-color: #8e8e8e; }
+  background: #181818; }
