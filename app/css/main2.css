@@ -4877,20 +4877,24 @@ a.text-danger:focus, a.text-danger:hover {
     display: none !important; } }
 
 h1 {
-  font-size: 80px; }
+  font-size: 24px; }
 
 body {
   background-color: #8e8e8e; }
 
 .navbar {
-  background-color: #545454;
+  background-color: #083143;
   -webkit-box-shadow: 30px;
   box-shadow: 30px; }
   .navbar a {
     color: white; }
 
+.logo {
+  max-width: 30px;
+  margin-top: 5px; }
+
 .nav-item {
-  background-color: #545454;
+  background-color: #083143;
   border: none;
   color: white;
   padding: 0px 10px;
@@ -4899,9 +4903,23 @@ body {
   border-radius: 10px;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: left; }
+  font-size: 15px;
+  cursor: pointer; }
 
 .nav-item:hover {
-  background: #181818; }
+  background: #062634; }
+
+.search {
+  margin-left: 25px;
+  margin-top: 6px;
+  padding: 1px 10px;
+  background-color: #062634;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  border: 0px;
+  outline: 0;
+  font-size: 15px; }
+
+button {
+  color: white; }
