@@ -3702,6 +3702,23 @@ base::-moz-progress-bar,
   padding-left: 0;
   list-style: none; }
 
+@media only screen and (max-width: 991px) {
+  .navbar-nav li {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .search {
+    width: 100%;
+    text-align: center; }
+  .navbar-brand {
+    display: none; }
+  .logo {
+    display: none; } }
+
+@media only screen and (min-width: 992px) {
+  .logo1 {
+    display: none; } }
+
 .list-group {
   padding-left: 0;
   margin-bottom: 0; }
@@ -4891,7 +4908,11 @@ body {
 
 .logo {
   max-width: 30px;
-  margin-top: 5px; }
+  margin-top: 2px; }
+
+.logo1 {
+  width: 30px;
+  margin-top: -10px; }
 
 .nav-item {
   background-color: #083143;
@@ -4910,7 +4931,6 @@ body {
   background: #062634; }
 
 .search {
-  margin-left: 25px;
   margin-top: 6px;
   padding: 1px 10px;
   background-color: #062634;
