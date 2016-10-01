@@ -3702,6 +3702,10 @@ base::-moz-progress-bar,
   padding-left: 0;
   list-style: none; }
 
+@media only screen and (max-width: 1200px) {
+  .home1 {
+    padding-left: 10px; } }
+
 @media only screen and (max-width: 991px) {
   .navbar-nav li {
     display: block;
@@ -3717,7 +3721,29 @@ base::-moz-progress-bar,
 
 @media only screen and (min-width: 992px) {
   .logo1 {
-    display: none; } }
+    display: none; }
+  .home1 {
+    padding-left: 100px; } }
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    text-align: center; }
+  .home1 {
+    padding-left: 20px; }
+  .home2 {
+    padding-left: 100px; } }
+
+@media only screen and (max-width: 768px) {
+  .pc {
+    width: 75%; }
+  .home2 {
+    padding-left: 50px; } }
+
+@media only screen and (max-width: 490px) {
+  .home2 {
+    padding-left: 100px; }
+  .pc {
+    width: 50%; } }
 
 .list-group {
   padding-left: 0;
@@ -4895,6 +4921,13 @@ a.text-danger:focus, a.text-danger:hover {
 
 h1 {
   font-size: 24px; }
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.container {
+  background: #F5F5DC; }
 
 body {
   background-color: #8e8e8e; }
