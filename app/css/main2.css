@@ -3717,7 +3717,10 @@ base::-moz-progress-bar,
   .navbar-brand {
     display: none; }
   .logo {
-    display: none; } }
+    display: none; }
+  .home2 {
+    margin-top: -150px;
+    margin-bottom: 30px; } }
 
 @media only screen and (min-width: 992px) {
   .logo1 {
@@ -4924,10 +4927,29 @@ h1 {
 
 .row {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background: #083143; }
 
-.container {
-  background: #F5F5DC; }
+.first {
+  background: white; }
+
+.second {
+  background: white; }
+
+.home1 {
+  height: 400px;
+  color: white; }
+
+.greyish {
+  color: grey; }
+
+.box1 {
+  background: white;
+  margin-top: -60px;
+  padding: 10px 20px; }
+
+.center {
+  text-align: center; }
 
 body {
   background-color: #8e8e8e; }
