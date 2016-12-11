@@ -5011,6 +5011,10 @@ span {
   font-size: 400%;
   line-height: 110%; }
 
+.john {
+  width: 210px;
+  margin-top: 25px; }
+
 .navbar {
   background-color: #083143;
   -webkit-box-shadow: 30px;
