@@ -3756,10 +3756,6 @@ base::-moz-progress-bar,
   .pc {
     width: 120px; } }
 
-@media only screen and (min-width: 992px) {
-  .logo1 {
-    display: none; } }
-
 .list-group {
   padding-left: 0;
   margin-bottom: 0; }
